@@ -1,0 +1,55 @@
+/usr/lib/ruby/vendor_ruby/bundler/source/git.rb:177:in `rescue in load_spec_files': https://github.com/dominikh/filesize.git (at master) is not checked out. Please run `bundle install` (Bundler::GitError)
+	from /usr/lib/ruby/vendor_ruby/bundler/source/git.rb:175:in `load_spec_files'
+	from /usr/lib/ruby/vendor_ruby/bundler/source/path.rb:86:in `local_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/source/git.rb:150:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/lazy_specification.rb:52:in `__materialize__'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:88:in `block in materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:85:in `map!'
+	from /usr/lib/ruby/vendor_ruby/bundler/spec_set.rb:85:in `materialize'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:114:in `specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:159:in `specs_for'
+	from /usr/lib/ruby/vendor_ruby/bundler/definition.rb:148:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/environment.rb:18:in `requested_specs'
+	from /usr/lib/ruby/vendor_ruby/bundler/runtime.rb:13:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler.rb:120:in `setup'
+	from /usr/lib/ruby/vendor_ruby/bundler/setup.rb:17:in `<top (required)>'
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+	from /usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require'
+Thin web server (v1.6.3 codename Protein Powder)
+Maximum connections set to 1024
+Listening on 0.0.0.0:3030, CTRL+C to stop
+10.0.0.28 - - [31/Dec/2014 10:21:37] "GET /dashboard HTTP/1.1" 200 4991 0.0031
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/image.html HTTP/1.1" 200 73 0.0016
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/health.html HTTP/1.1" 200 224 0.0011
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/number.html HTTP/1.1" 200 339 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/meter.html HTTP/1.1" 200 332 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/graph.html HTTP/1.1" 200 167 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0008
+10.0.0.28 - - [31/Dec/2014 10:21:39] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0008
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /events HTTP/1.1" 200 - 7.6002
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /dashboard HTTP/1.1" 200 4991 0.0065
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/image.html HTTP/1.1" 200 73 0.0012
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/health.html HTTP/1.1" 200 224 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/meter.html HTTP/1.1" 200 332 0.0011
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/number.html HTTP/1.1" 200 339 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/graph.html HTTP/1.1" 200 167 0.0009
+10.0.0.28 - - [31/Dec/2014 10:21:47] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0009
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /events HTTP/1.1" 200 - 1063.8519
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /dashboard HTTP/1.1" 200 4991 0.0043
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/image.html HTTP/1.1" 200 73 0.0007
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/health.html HTTP/1.1" 200 224 0.0006
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/meter.html HTTP/1.1" 200 332 0.0088
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/number.html HTTP/1.1" 200 339 0.0005
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+10.0.0.28 - - [31/Dec/2014 10:39:31] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0007
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /events HTTP/1.1" 200 - 6177.4286
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /dashboard HTTP/1.1" 200 4991 0.0074
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/image.html HTTP/1.1" 200 73 0.0005
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/health.html HTTP/1.1" 200 224 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/meter.html HTTP/1.1" 200 332 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/number.html HTTP/1.1" 200 339 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/mgraph.html HTTP/1.1" 200 182 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/graph.html HTTP/1.1" 200 167 0.0004
+10.0.0.28 - - [31/Dec/2014 12:22:28] "GET /views/progress_bars.html HTTP/1.1" 200 79 0.0004

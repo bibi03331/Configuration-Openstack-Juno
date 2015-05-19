@@ -1,0 +1,29 @@
+
+pools:
+  images:
+    display_name: 'ISOs'
+  volumes:
+    display_name: 'Volumes'
+  vms:
+    display_name: 'VMs'
+
+ceph:
+  user_name: openstack
+  host: 10.0.0.23
+
+openstack:
+  id_admin: 80fe8e2f86184c91882d87c0439833a0
+  user_admin: Sebastien
+  admin_passwd: 05046Tomy/
+  controller_host: 10.0.0.30
+  vcpus_allocation_ratio: 2.0
+  ram_allocation_ratio: 1.0
+  # remove this amount per node available metric
+  reserved_ram_per_node: 0
+  reserved_vcpus_per_node: 0
+  # remove this amount from total
+  reserved_ram: 0
+  reserved_vcpus: 0
+  # use neutron quotas (overwrites default limits call)
+  neutron_quotas: false
+

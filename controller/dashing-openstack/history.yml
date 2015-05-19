@@ -1,0 +1,65 @@
+---
+status: ! 'data: {"status":"ok","text":"Normal","id":"status","updatedAt":1418027901}
+
+
+'
+traffic: ! 'data: {"points":[[{"x":630,"y":0},{"x":631,"y":0},{"x":632,"y":0},{"x":633,"y":0},{"x":634,"y":0},{"x":635,"y":0},{"x":636,"y":0},{"x":637,"y":0},{"x":638,"y":0},{"x":639,"y":0}],[{"x":630,"y":0},{"x":631,"y":0},{"x":632,"y":0},{"x":633,"y":0},{"x":634,"y":0},{"x":635,"y":0},{"x":636,"y":0},{"x":637,"y":0},{"x":638,"y":0},{"x":639,"y":0}]],"moreinfo":"0.00
+  B / 0.00 B","id":"traffic","updatedAt":1420014496}
+
+
+'
+iops: ! 'data: {"points":[{"x":630,"y":0},{"x":631,"y":0},{"x":632,"y":0},{"x":633,"y":0},{"x":634,"y":0},{"x":635,"y":0},{"x":636,"y":0},{"x":637,"y":0},{"x":638,"y":0},{"x":639,"y":0}],"displayValue":0,"id":"iops","updatedAt":1420014496}
+
+
+'
+storage: ! 'data: {"value":43.18,"min":0,"max":3.88,"moreinfo":"43.18 GB out of 3.88
+  TB","id":"storage","updatedAt":1420014493}
+
+
+'
+pool0: ! 'data: {"current":282517046,"last":282517046,"title":"ISOs","id":"pool0","updatedAt":1420014493}
+
+
+'
+pool1: ! 'data: {"current":1264820242,"last":1264820242,"title":"Volumes","id":"pool1","updatedAt":1420014493}
+
+
+'
+pool2: ! 'data: {"current":2842841142,"last":2842841142,"title":"VMs","id":"pool2","updatedAt":1420014493}
+
+
+'
+cores-tenant: ! 'data: {"title":"Projets : VCPUs","progress_items":[{"name":"admin","progress":10.0,"value":2,"max":20}],"id":"cores-tenant","updatedAt":1420014488}
+
+
+'
+instances-tenant: ! 'data: {"title":"Projets : Instances","progress_items":[{"name":"admin","progress":20.0,"value":2,"max":10}],"id":"instances-tenant","updatedAt":1420014488}
+
+
+'
+ram-tenant: ! 'data: {"title":"Projets : RAM","progress_items":[{"name":"admin","progress":8.0,"value":4,"max":50}],"id":"ram-tenant","updatedAt":1420014488}
+
+
+'
+storage-tenant: ! 'data: {"title":"Projets : Stockage","progress_items":[{"name":"admin","progress":0.2,"value":2,"max":1000}],"id":"storage-tenant","updatedAt":1420014488}
+
+
+'
+vcpus-hypervisor: ! 'data: {"title":"VCPUs du cluster","value":3,"min":0,"max":16,"moreinfo":"3
+  out of 16","id":"vcpus-hypervisor","updatedAt":1420014488}
+
+
+'
+ram-hypervisor: ! 'data: {"title":"RAM du cluster","value":5905580032,"min":0,"max":50218401792,"moreinfo":"5
+  GB out of 46 GB","id":"ram-hypervisor","updatedAt":1420014488}
+
+
+'
+statusCeph: ! 'data: {"status":"ok","text":"Normal","id":"statusCeph","updatedAt":1420014493}
+
+
+'
+statusNova: ! 'data: {"status":"ok","text":"Normal","id":"statusNova","updatedAt":1420014492}
+
+
+'
